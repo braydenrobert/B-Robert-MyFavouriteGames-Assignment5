@@ -1,0 +1,43 @@
+.content-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.content-card {
+  width: calc((100% - 50px) / 5);
+  border: 1px solid;
+}
+
+.content-card.type1 {
+  background-color: #bada55;
+}
+
+.content-card.type2 {
+  background-color: #ff0000;
+}
+
+.content-card .type {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.type-article {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.type-video {
+  background-color: #d0d0d0;
+  font-style: italic;
+}
+
+.type-image {
+  background-color: #e0e0e0;
+  text-decoration: underline;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,19 @@
+.content-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.type-article {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.type-video {
+  background-color: #d0d0d0;
+  font-style: italic;
+}
+
+.type-image {
+  background-color: #e0e0e0;
+  text-decoration: underline;
+}
